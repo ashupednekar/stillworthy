@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = { version = "4.6.1", features = ["derive"] }
+standard-error = "0.1.9"
+tokio = { version = "1.52.1", features = ["full"] }
+tracing = { version = "0.1.44", features = ["log", "log-always"] }

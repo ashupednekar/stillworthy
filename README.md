@@ -25,6 +25,7 @@ The cli that manages:
 
 
 **app**
+
 App for mac os top bar kinda thing
 
 **swproxy**
