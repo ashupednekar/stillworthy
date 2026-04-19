@@ -2,7 +2,7 @@
 
 We are still worthy, just need to be reminded of that
 
-<img width="1080" height="1080" alt="image" src="https://github.com/user-attachments/assets/1fe28845-5016-4c2a-bdfc-0b74490eaccf" />
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/1fe28845-5016-4c2a-bdfc-0b74490eaccf" />
 
 
 
