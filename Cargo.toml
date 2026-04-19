@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "app",
+    "swctl",
+    "swproxy", "app",
+]
+resolver = "3"
