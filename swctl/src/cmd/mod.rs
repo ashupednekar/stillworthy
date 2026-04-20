@@ -1,5 +1,5 @@
-use clap::{Parser, Subcommand};
 use crate::prelude::Result;
+use clap::{Parser, Subcommand};
 
 #[derive(Parser)]
 struct Cmd {
@@ -12,10 +12,12 @@ enum SubCmd {
     Enable,
 }
 
-pub async fn run() -> Result<()>{
+pub async fn run() -> Result<()> {
     let args = Cmd::parse();
     match args.command {
-        Some(SubCmd::Enable) => {}
+        Some(SubCmd::Enable) => {
+            execblck::guard::notify_exec().unwrap();
+        }
         None => {
             tracing::error!("no subcommand passed");
         }
