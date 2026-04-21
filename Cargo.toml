@@ -1,6 +1,6 @@
 [workspace]
 members = [
-    "app", "execblck", "shared", 
+    "execblck", "shared", 
     "swctl",
 ]
 resolver = "3"

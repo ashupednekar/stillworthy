@@ -3,6 +3,11 @@ name = "execblck"
 version = "0.1.0"
 edition = "2024"
 
+[features]
+default = ["ebpf"]
+ebpf = []
+mac = ["dep:endpointsecurity-rs"]
+
 [dependencies]
-endpointsecurity-rs = "0.1.1"
+endpointsecurity-rs = {version="0.1.1", optional=true}
 shared = {path = "../shared"}
