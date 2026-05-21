@@ -21,7 +21,7 @@ pub async fn run() -> Result<()> {
             ext.notify().unwrap();
         }
         None => {
-            tracing::error!("no subcommand passed");
+            println!("no subcommand passed");
         }
     }
     Ok(())

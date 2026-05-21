@@ -9,5 +9,10 @@ ebpf = []
 mac = ["dep:endpointsecurity-rs"]
 
 [dependencies]
+anyhow = "1.0.102"
 endpointsecurity-rs = {version="0.1.1", optional=true}
+libbpf-rs = "0.26.2"
 shared = {path = "../shared"}
+
+[build-dependencies]
+libbpf-cargo = "0.26.2"
